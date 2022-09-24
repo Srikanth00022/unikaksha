@@ -71,3 +71,11 @@ for i in range(a):
     s=b**2
     b+=4
     print(s,end=' ')
+
+#swapping of two numbers
+a=int(input())
+b=int(input())
+a=a+b
+b=a-b
+a=a-b
+print(a,b)

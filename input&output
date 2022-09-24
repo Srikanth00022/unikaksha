@@ -18,3 +18,21 @@ print('%.2f'%a)
 #Character Input
 a=input()
 print(a)
+
+#friendly pair
+n1=int(input())
+n2=int(input())
+sum1=0
+sum2=0
+for i in range(1,n1+1):
+    if(n1%i==0):
+        sum=sum1+i
+for i in range (1,n2+1):
+    if(n2%1==0):
+        sum2=sum2+1
+        x1=sum1/n1
+        x2=sum2/n2
+        if(x1==x2):
+            print("friendly pair")
+        else:
+            print("not friendly pair")

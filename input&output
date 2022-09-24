@@ -79,3 +79,8 @@ a=a+b
 b=a-b
 a=a-b
 print(a,b)
+
+#length of tuple
+tuplex = tuple("cyfuno")
+print(tuplex)
+print(len(tuplex)

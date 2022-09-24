@@ -36,3 +36,38 @@ for i in range (1,n2+1):
             print("friendly pair")
         else:
             print("not friendly pair")
+            
+# serise 1
+a=int(input())
+for i in range(1,a+1):
+    print(i**2,end=' ')
+    
+#series 2
+a=int(input())
+c=6
+for i in range(0,a):
+    b=5*i
+    c=c+b
+    print(c,end=' ')
+    
+series 3
+a=int(input())
+for i in range(1,a+1):
+    print(3**i,end=' ')
+    
+#series 4
+a=int(input())
+s=0.5
+print(s,end=' ')
+for i in range(a-1):
+    b=3**i
+    s=s+b
+    print(s,end=' ')
+    
+#series 5
+a=int(input())
+b=11
+for i in range(a):
+    s=b**2
+    b+=4
+    print(s,end=' ')
